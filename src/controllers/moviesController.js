@@ -65,7 +65,7 @@ const moviesController = {
             order : ['name']
         })
             .then(allGenres => {
-                return res.render('movieAdd',{
+                return res.render('moviesAdd',{
                     allGenres
                 })
             })
